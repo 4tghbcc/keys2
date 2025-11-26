@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Стилизованный Счетчик</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Стилизованный Счетчик</h1>
+        
+        <div class="counter-wrapper">
+            <div class="display-container">
+                <div id="result" class="result">0</div>
+            </div>
+            
+            <div class="buttons-container">
+                <button id="decrementBtn" class="btn btn-decrement">-</button>
+                <button id="incrementBtn" class="btn btn-increment">+</button>
+            </div>
+        </div>
+
+        <div id="message" class="message"></div>
+
+        <div class="instructions">
+            <h3>Инструкция:</h3>
+            <ul>
+                <li>Нажмите "+" для увеличения значения</li>
+                <li>Нажмите "-" для уменьшения значения</li>
+                <li>Цвет фона меняется в зависимости от значения</li>
+                <li>Кнопки блокируются при достижении предельных значений</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
