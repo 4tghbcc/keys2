@@ -1,4 +1,4 @@
-class Counter {
+class Counter  {
     constructor() {
         this.count = 0;
         this.maxLimit = 10;
